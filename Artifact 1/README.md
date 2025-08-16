@@ -1,1 +1,3 @@
 *Artifact 1*
+This artifact... 
+Make sure to describe, justifiy, and reflect on the enhancing of the artifact and how it aligned with course outcomes and professional goals.
