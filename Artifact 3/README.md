@@ -1,4 +1,7 @@
 *Artifact 3*
 
-This artifact... 
-Make sure to describe, justifiy, and reflect on the enhancing of the artifact and how it aligned with course outcomes and professional goals.
+Azure SQL Database was connected to the application, replacing the SQLite and Room functions. This gives the application more storage and data management, especially since we added barcode functioning.
+
+
+
+[StockUp!_Enh3.zip](https://github.com/user-attachments/files/21824493/StockUp._Enh3.zip)
