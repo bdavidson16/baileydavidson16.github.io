@@ -13,6 +13,33 @@
             background-color: #f9f9f9;
             color: #333;
         }
+
+        /* Sidebar Styles */
+        .sidebar {
+            height: 100%;
+            width: 220px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        /* Main Content Styles */
+        .main {
+            margin-left: 230px; /* width of sidebar + some spacing */
+            padding: 20px;
+        }
+
         header {
             background-color: #4CAF50;
             color: white;
@@ -26,11 +53,6 @@
         header p {
             font-size: 1.2rem;
             margin-top: 0.5rem;
-        }
-        main {
-            padding: 2rem 1rem;
-            max-width: 900px;
-            margin: auto;
         }
         section {
             margin-bottom: 2rem;
@@ -50,17 +72,29 @@
             background-color: #eee;
             text-align: center;
             padding: 1rem;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>🚀 StockUp! Portfolio</h1>
-        <p>Showcasing my end-of-course mobile application project</p>
-    </header>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="artifact1/index.html">Artifact 1</a>
+        <a href="artifact2/index.html">Artifact 2</a>
+        <a href="artifact3/index.html">Artifact 3</a>
+        <a href="informal_code_review/index.html">Informal Code Review</a>
+        <a href="professional_self_assessment/index.html">Professional Self-Assessment</a>
+    </div>
 
-    <main>
+    <!-- Main Content -->
+    <div class="main">
+        <header>
+            <h1>🚀 StockUp! Portfolio</h1>
+            <p>Showcasing my end-of-course mobile application project</p>
+        </header>
+
         <section>
             <h2>📱 About StockUp!</h2>
             <p>
@@ -92,11 +126,11 @@
                 Check out the project files, documentation, and demo to see <strong>StockUp!</strong> in action. This project demonstrates my ability to build full-featured mobile applications with modern technology integrations.
             </p>
         </section>
-    </main>
 
-    <footer>
-        &copy; 2025 Bailey Davidson
-    </footer>
+        <footer>
+            &copy; 2025 Bailey Davidson
+        </footer>
+    </div>
 
 </body>
 </html>
